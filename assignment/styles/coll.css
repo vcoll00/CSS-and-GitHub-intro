@@ -1,0 +1,91 @@
+/*  ADD your styles below --- WHERE INDICATED ---
+    Keep all the comments I have provided.
+    Where I have commented "keep," DO NOT touch that line!
+    */
+
+/* color palette
+    #7999CD color 1
+    #405982 color 2
+    #2E415E color 3 darkest
+    #73A1EB color 4 lightest
+    */
+
+body {
+    background: #2E415E; /* must change */
+    color: #fff; /* may be #000 or #fff */
+    font-family: Calibri, Arial, sans-serif; /* keep */
+}
+
+article {
+    width: 800px; /* keep */
+    padding: 20px; /* keep */
+    margin: auto; /* keep */
+    border: 1px solid; /* can delete or change */
+    background: #405982;
+}
+
+/* --- ADD YOUR STYLES BELOW --- */
+
+header {
+    background: #7999CD;
+    color: #000;
+}
+
+footer {
+    background: #7999CD;
+    color: #000;
+}
+
+aside {
+    background: #2E415E;
+}
+
+figure {
+    background: #73A1EB;
+}
+
+figcaption {
+    color: #000;
+}
+
+/* --- add your PSEUDO CLASSES below this line --- */
+
+  a:link {
+    color: #1D19FA;
+  }
+
+  a:visited {
+    color: #0D136B;
+  }
+
+  a:focus {
+    color: #9445D1;
+  }
+
+  a:hover {
+    color: #AA54EB;
+  }
+
+  a:active {
+    color: #FAF8A0;
+  }
+
+  footer a:link {
+    color: #CFF5A0;
+  }
+
+  footer a:visited {
+    color: #1726EB;
+  }
+
+  footer a:focus {
+    color: #9445D1;
+  }
+
+  footer a:hover {
+    color: #AA54EB;
+  }
+
+  footer a:active {
+    color: #FAF8A0;
+  }
